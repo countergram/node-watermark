@@ -1,0 +1,26 @@
+{
+    "name": "watermark",
+    "version": "0.1.0",
+    "description": "Utility to resize and watermark images",
+    "author": {
+        "name": "Jason Stitt",
+        "email": "js@jasonstitt.com",
+        "url": "http://jasonstitt.com"
+    },
+    "bin": {
+        "watermark": "./bin/watermark"
+    },
+    "directories": {
+        "bin": "./bin",
+        "lib": "./lib"
+    },
+    "dependencies": {
+        "coa": "1.0.x",
+        "gm": "1.17.x",
+        "mkdirp": "0.5.x",
+        "tmp": "0.0.x"
+    },
+    "engines": {
+        "node": ">= 0.10.0"
+    }
+}
