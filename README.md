@@ -1,5 +1,7 @@
 `watermark` is a Node.js based utility for (optionally) resizing multiple images and adding a translucent watermark text.
 
+External dependencies that `npm` will not install include [GraphicsMagick](http://www.graphicsmagick.org/) and [Ghostscript](http://www.ghostscript.com/). Install these using your system package manager or packages from their web sites.
+
     Usage:
       watermark [OPTIONS] [ARGS]
 
